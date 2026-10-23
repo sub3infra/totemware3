@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "inventorytotem",
+  "version": "${version}",
+  "name": "Inventory Totem",
+  "description": "Automatically moves a Totem of Undying into your offhand, but only while your inventory is open.",
+  "authors": ["You"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.example.inventorytotem.InventoryTotemClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.1",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
